@@ -16,8 +16,8 @@
 //## Sitemap Update
 //0 2 * * * php /root/sitemap/generate-sitemap.php >/dev/null 2>&1
 
-$baseUrl = 'https://www.makoboard.com/'; // update this to your domain
-$sitemapPath = '/var/www/makoboard.com/public_html/sitemap.xml'; // update this to your sitemap location (absolute server location - needs to be writable)
+$baseUrl = 'https://www.example.com/'; // update this to your domain
+$sitemapPath = '/var/www/example.com/public_html/sitemap.xml'; // update this to your sitemap location (absolute server location - needs to be writable)
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
